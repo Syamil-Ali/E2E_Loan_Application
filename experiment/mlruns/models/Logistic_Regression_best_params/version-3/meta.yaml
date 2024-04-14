@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1713098216036
+current_stage: None
+description: null
+last_updated_timestamp: 1713098216036
+name: Logistic_Regression_best_params
+run_id: 771fdceda7604903837f75723d690fce
+run_link: null
+source: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/527078657761269980/771fdceda7604903837f75723d690fce/artifacts/loan_application_model/titi-base_experiment
+status: READY
+status_message: null
+storage_location: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/527078657761269980/771fdceda7604903837f75723d690fce/artifacts/loan_application_model/titi-base_experiment
+user_id: null
+version: 3

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/527078657761269980/b775bfe927994de69f15130ee3440cc1/artifacts
+end_time: 1713098208150
+entry_point_name: ''
+experiment_id: '527078657761269980'
+lifecycle_stage: active
+run_id: b775bfe927994de69f15130ee3440cc1
+run_name: titi-base_experiment_Logistic_Regression_trial_3
+run_uuid: b775bfe927994de69f15130ee3440cc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713098207973
+status: 3
+tags: []
+user_id: USER

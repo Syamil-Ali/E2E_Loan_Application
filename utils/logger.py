@@ -21,7 +21,6 @@ logs_path = os.path.join(os.getcwd(),"logs", LOG_FILE) # define the targeted pat
 # generate the folder
 os.makedirs(logs_path, exist_ok=True) # create the logging file
 
-
 LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE) # define the targeted path
 
 # -- Logging info into the file
@@ -30,6 +29,4 @@ logging.basicConfig(
     format =  "[ %(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level = logging.INFO, # has many (can check documentation), but .INFO is just level for general information
 )
-
-
 
