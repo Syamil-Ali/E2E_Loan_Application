@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/492515726fce4765a949b7e12363b5c0/artifacts
+deleted_time: 1713016456735
+end_time: 1713012376358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 492515726fce4765a949b7e12363b5c0
+run_name: valuable-flea-321
+run_uuid: 492515726fce4765a949b7e12363b5c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713012376152
+status: 3
+tags: []
+user_id: USER

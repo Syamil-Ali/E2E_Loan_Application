@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/07f2b43853ef4861b2f7a97b7685c341/artifacts
+deleted_time: 1713016456527
+end_time: 1713016437091
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 07f2b43853ef4861b2f7a97b7685c341
+run_name: gifted-donkey-693
+run_uuid: 07f2b43853ef4861b2f7a97b7685c341
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713016437044
+status: 3
+tags: []
+user_id: USER

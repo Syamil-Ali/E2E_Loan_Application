@@ -1,0 +1,8 @@
+This is the application loan prediction project This experiment contains the base experiments made
+cleaning done:
+1. remove id, dupe, missing
+2. standard scalar
+3. categorical encoder
+
+other tag:
+optimize using optuna

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/eadf2cf8c2414804ab9d4b164b795538/artifacts
+deleted_time: 1713016456644
+end_time: 1713015762491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: eadf2cf8c2414804ab9d4b164b795538
+run_name: whimsical-donkey-590
+run_uuid: eadf2cf8c2414804ab9d4b164b795538
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713015762423
+status: 3
+tags: []
+user_id: USER

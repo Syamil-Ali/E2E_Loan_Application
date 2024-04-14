@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/23b96479b74a425fa6e5e77de9e76c12/artifacts
+deleted_time: 1713016456719
+end_time: 1713013345231
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 23b96479b74a425fa6e5e77de9e76c12
+run_name: rambunctious-ray-85
+run_uuid: 23b96479b74a425fa6e5e77de9e76c12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713013345133
+status: 3
+tags: []
+user_id: USER

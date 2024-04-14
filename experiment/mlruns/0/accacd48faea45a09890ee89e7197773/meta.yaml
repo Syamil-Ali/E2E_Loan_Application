@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/accacd48faea45a09890ee89e7197773/artifacts
+deleted_time: 1713016456688
+end_time: 1713014863810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: accacd48faea45a09890ee89e7197773
+run_name: indecisive-deer-281
+run_uuid: accacd48faea45a09890ee89e7197773
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713014863746
+status: 3
+tags: []
+user_id: USER

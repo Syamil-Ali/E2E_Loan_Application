@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/5aa6cf7c481a470fa29d73110c1a446c/artifacts
+deleted_time: 1713016456552
+end_time: 1713016437028
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5aa6cf7c481a470fa29d73110c1a446c
+run_name: righteous-fox-446
+run_uuid: 5aa6cf7c481a470fa29d73110c1a446c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713016436981
+status: 3
+tags: []
+user_id: USER

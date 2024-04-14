@@ -1,0 +1,16 @@
+artifact_location: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/249721785975463535
+creation_time: 1713065094245
+experiment_id: '249721785975463535'
+last_update_time: 1713065430007
+lifecycle_stage: deleted
+name: Loan_Application_Classification
+tags:
+  data_cleaning: remove id col, remove duplicate, [remove missing], categorical encoder,
+    standard scaler
+  mlflow.note.content: This is the application loan prediction project This experiment
+    contains the base experiments made
+  mode_involved: Logistic RegressionAdaBoost
+  other_tag: Optuna
+  project_name: loan_application_project
+  project_quarter: Q1-2024
+  team: syamil

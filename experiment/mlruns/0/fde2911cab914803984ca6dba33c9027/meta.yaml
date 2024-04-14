@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/fde2911cab914803984ca6dba33c9027/artifacts
+deleted_time: 1713016456639
+end_time: 1713015762641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fde2911cab914803984ca6dba33c9027
+run_name: caring-fowl-66
+run_uuid: fde2911cab914803984ca6dba33c9027
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713015762580
+status: 3
+tags: []
+user_id: USER

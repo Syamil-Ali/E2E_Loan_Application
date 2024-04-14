@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/4fc0a0e02a7f4230abaf6f4ea8782ad9/artifacts
+deleted_time: 1713016456678
+end_time: 1713014864062
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 4fc0a0e02a7f4230abaf6f4ea8782ad9
+run_name: fun-colt-271
+run_uuid: 4fc0a0e02a7f4230abaf6f4ea8782ad9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713014863996
+status: 3
+tags: []
+user_id: USER

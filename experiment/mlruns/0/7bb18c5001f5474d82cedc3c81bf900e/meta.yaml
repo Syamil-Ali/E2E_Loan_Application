@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/0/7bb18c5001f5474d82cedc3c81bf900e/artifacts
+deleted_time: 1713016456553
+end_time: 1713016436981
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7bb18c5001f5474d82cedc3c81bf900e
+run_name: kindly-mule-274
+run_uuid: 7bb18c5001f5474d82cedc3c81bf900e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713016436919
+status: 3
+tags: []
+user_id: USER
