@@ -1,15 +1,14 @@
-aliases:
-- champion
-creation_timestamp: 1713066172078
-current_stage: Production
-description: null
-last_updated_timestamp: 1713066612943
+aliases: []
+creation_timestamp: 1714830262136
+current_stage: None
+description: ''
+last_updated_timestamp: 1714830262136
 name: Logistic_Regression_best_params
-run_id: ab1064e8fc734327ae5ca9cf66ba70e7
-run_link: null
-source: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/615822914642047264/ab1064e8fc734327ae5ca9cf66ba70e7/artifacts/loan_application_model/base_experiment
+run_id: 5836fc4a33c04db1ada22239140e950f
+run_link: ''
+source: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/321750751126609800/5836fc4a33c04db1ada22239140e950f/artifacts/loan_application_model/base_experiment
 status: READY
 status_message: null
-storage_location: null
+storage_location: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/321750751126609800/5836fc4a33c04db1ada22239140e950f/artifacts/loan_application_model/base_experiment
 user_id: null
 version: 1

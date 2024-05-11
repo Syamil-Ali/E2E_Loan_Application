@@ -1,5 +1,7 @@
-aliases: {}
-creation_timestamp: 1713098296588
-description: null
-last_updated_timestamp: 1713098296623
+aliases:
+  challenger: '1'
+  global_challenger: '2'
+creation_timestamp: 1714830289532
+description: ''
+last_updated_timestamp: 1715357852827
 name: AdaBoost_best_params

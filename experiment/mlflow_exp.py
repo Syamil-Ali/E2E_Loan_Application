@@ -3,6 +3,7 @@ import mlflow
 def mlflow_create_experiment():
     pass
 
+
 def mlflow_logging(exp_param, model, params:dict, metrics:dict):
 
     experiment_name = exp_param['name']
@@ -11,11 +12,8 @@ def mlflow_logging(exp_param, model, params:dict, metrics:dict):
     model_name = exp_param['model_name']
     signature = exp_param['signature']
 
-
     # set experiment
-    mlflow.set_experiment(experiment_name)
-
-
+    #mlflow.set_experiment(experiment_name)
 
     # initiate the logging
     with mlflow.start_run(run_name = run_name, nested=True) as run:

@@ -1,6 +1,7 @@
 aliases:
-  champion: '1'
-creation_timestamp: 1713066172063
-description: null
-last_updated_timestamp: 1713098216036
+  challenger: '2'
+  champion: '4'
+creation_timestamp: 1714830262095
+description: ''
+last_updated_timestamp: 1715357819443
 name: Logistic_Regression_best_params

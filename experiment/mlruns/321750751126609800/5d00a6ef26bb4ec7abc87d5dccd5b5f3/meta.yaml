@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/321750751126609800/5d00a6ef26bb4ec7abc87d5dccd5b5f3/artifacts
+deleted_time: 1715259282268
+end_time: 1714830289651
+entry_point_name: ''
+experiment_id: '321750751126609800'
+lifecycle_stage: deleted
+run_id: 5d00a6ef26bb4ec7abc87d5dccd5b5f3
+run_name: base_experiment_AdaBoost_best_params
+run_uuid: 5d00a6ef26bb4ec7abc87d5dccd5b5f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714830282545
+status: 3
+tags: []
+user_id: USER

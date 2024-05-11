@@ -2,10 +2,13 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
+import joblib
+import os
+import sys
+#sys.path.remove('c:\\users\\user\\desktop\\python project\\mlflow\\real loan application')
+from utils import utils as ut
 
-
-
-def cleaning_train_pipeline(df):
+def cleaning_train_pipeline(df, production=False):
 
     try:
 
@@ -55,6 +58,21 @@ def cleaning_train_pipeline(df):
 
         X_train= scaler.transform(X_train)
         X_test= scaler.transform(X_test)
+
+        # save and export preprocessing model
+        if production:
+
+            path = '../production/PPreprocessing/'
+            
+            try:
+                ut.preprocessing_handle(path)
+            except:
+                pass
+
+            os.makedirs(path + 'Deployed', exist_ok=True)
+            joblib.dump(encoder, path+'Deployed/encoder.pkl')
+            joblib.dump(scaler, path+'Deployed/scaler.pkl')
+
 
         
         return X_train, y_train, X_test, y_test

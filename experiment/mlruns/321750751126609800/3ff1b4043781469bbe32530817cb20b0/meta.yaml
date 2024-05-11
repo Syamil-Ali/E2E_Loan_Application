@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/USER/Desktop/MLOPS%20NEW/E2E%20Loan%20Application%20Classification/E2E_Loan_Application/experiment/mlruns/321750751126609800/3ff1b4043781469bbe32530817cb20b0/artifacts
+deleted_time: 1715259282237
+end_time: 1714838868326
+entry_point_name: ''
+experiment_id: '321750751126609800'
+lifecycle_stage: deleted
+run_id: 3ff1b4043781469bbe32530817cb20b0
+run_name: base_experiment_Logistic_Regression_trial_3
+run_uuid: 3ff1b4043781469bbe32530817cb20b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714838868083
+status: 3
+tags: []
+user_id: USER
