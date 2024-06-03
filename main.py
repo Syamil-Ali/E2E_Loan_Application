@@ -1,7 +1,5 @@
 import streamlit as st
 import joblib
-#import mlflow
-#import os
 import pickle
 import pandas as pd
 
@@ -127,11 +125,11 @@ if submitted:
         'Dependents': dependents,
         'Education': 'Graduate' if education == 'Yes' else 'Not Graduate',
         'Self_Employed': self_employed,
-        'ApplicantIncome' : income,
-        'CoapplicantIncome': coincome,
-        'LoanAmount': loan_amount,
-        'Loan_Amount_Term': loan_amount_term,
-        'Credit_History': 1 if credit_history == 'Yes' else 0,	
+        'ApplicantIncome' : int(income),
+        'CoapplicantIncome': float(coincome),
+        'LoanAmount': float(loan_amount),
+        'Loan_Amount_Term': float(loan_amount_term),
+        'Credit_History': float(1 if credit_history == 'Yes' else 0),	
         'Property_Area': property_area
     }
 
@@ -139,28 +137,29 @@ if submitted:
     
     user_input_df = pd.DataFrame(user_input, index=[0])
 
+
     model_input = cleanup(user_input_df)
 
 
     # # prediction
-    # result = ml_model.predict(model_input)
+    result = ml_model.predict(model_input)
 
-    # # update the db
-    # user_input['Loan_Application_Pred'] = int(result[0])
+    # update the db
+    #user_input['Loan_Application_Pred'] = int(result[0])
 
 
-    # #upload_firebase(db, collection_name, user_input)
-    # #doc_ref.set(user_input)
+    #upload_firebase(db, collection_name, user_input)
+    #doc_ref.set(user_input)
     
-    # print(user_input)
+    #print(user_input)
 
 
-    # #st.dataframe(user_input_df)
-    # prediction_convert = ":green[Approved]" if result[0] == 1 else ":red[Not Approved]"
-    # st.write('')
-    # st.write('')
+    #st.dataframe(user_input_df)
+    prediction_convert = ":green[Approved]" if result[0] == 'Y' else ":red[Not Approved]"
+    st.write('')
+    st.write('')
 
-    # st.markdown(f"Loan Prediction: **{prediction_convert}**")
+    st.markdown(f"Loan Prediction: **{prediction_convert}**")
     #st.write(result[0])
 
 
