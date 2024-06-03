@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1717385060427
+current_stage: None
+description: ''
+last_updated_timestamp: 1717385060427
+name: Logistic_Regression_best_params
+run_id: e0ad11d1405644dc8ca604495fd5b495
+run_link: ''
+source: mlflow-artifacts:/195796888301320052/e0ad11d1405644dc8ca604495fd5b495/artifacts/loan_application_model/base_experiment
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/195796888301320052/e0ad11d1405644dc8ca604495fd5b495/artifacts/loan_application_model/base_experiment
+user_id: null
+version: 5

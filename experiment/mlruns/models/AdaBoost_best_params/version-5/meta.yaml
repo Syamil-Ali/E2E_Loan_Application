@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1717385093378
+current_stage: None
+description: ''
+last_updated_timestamp: 1717385093378
+name: AdaBoost_best_params
+run_id: fdb72d517ae64809a532e41738f7f5a5
+run_link: ''
+source: mlflow-artifacts:/195796888301320052/fdb72d517ae64809a532e41738f7f5a5/artifacts/loan_application_model/base_experiment
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/195796888301320052/fdb72d517ae64809a532e41738f7f5a5/artifacts/loan_application_model/base_experiment
+user_id: null
+version: 5

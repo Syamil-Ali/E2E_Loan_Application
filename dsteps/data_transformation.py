@@ -60,22 +60,22 @@ def cleaning_train_pipeline(df, production=False):
         X_test= scaler.transform(X_test)
 
         # save and export preprocessing model
-        if production:
+        # if production:
 
-            path = '../production/PPreprocessing/'
+        #     path = '../production/PPreprocessing/'
             
-            try:
-                ut.preprocessing_handle(path)
-            except:
-                pass
+        #     try:
+        #         ut.preprocessing_handle(path)
+        #     except:
+        #         pass
 
-            os.makedirs(path + 'Deployed', exist_ok=True)
-            joblib.dump(encoder, path+'Deployed/encoder.pkl')
-            joblib.dump(scaler, path+'Deployed/scaler.pkl')
+        #     os.makedirs(path + 'Deployed', exist_ok=True)
+        #     joblib.dump(encoder, path+'Deployed/encoder.pkl')
+        #     joblib.dump(scaler, path+'Deployed/scaler.pkl')
 
 
         
-        return X_train, y_train, X_test, y_test
+        return X_train, y_train, X_test, y_test, encoder, scaler
 
 
     except:

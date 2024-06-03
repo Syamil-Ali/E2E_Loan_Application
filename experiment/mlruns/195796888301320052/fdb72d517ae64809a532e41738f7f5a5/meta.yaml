@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/195796888301320052/fdb72d517ae64809a532e41738f7f5a5/artifacts
+end_time: 1717385093446
+entry_point_name: ''
+experiment_id: '195796888301320052'
+lifecycle_stage: active
+run_id: fdb72d517ae64809a532e41738f7f5a5
+run_name: base_experiment_AdaBoost_best_params
+run_uuid: fdb72d517ae64809a532e41738f7f5a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717385088744
+status: 3
+tags: []
+user_id: USER
