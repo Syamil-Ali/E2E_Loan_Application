@@ -57,6 +57,8 @@ def cleanup(df):
 # ------------------ UI
 # 
 
+st.title('Loan Application ML')
+
 with st.form("my_form"):
 
     st.markdown("**Personal Info**")
@@ -123,7 +125,7 @@ if submitted:
         'Gender': gender,
         'Married': married,
         'Dependents': dependents,
-        'education': 'Graduate' if education == 'Yes' else 'Not Graduate',
+        'Education': 'Graduate' if education == 'Yes' else 'Not Graduate',
         'Self_Employed': self_employed,
         'ApplicantIncome' : income,
         'CoapplicantIncome': coincome,
@@ -140,25 +142,25 @@ if submitted:
     model_input = cleanup(user_input_df)
 
 
-    # prediction
-    result = ml_model.predict(model_input)
+    # # prediction
+    # result = ml_model.predict(model_input)
 
-    # update the db
-    user_input['Loan_Application_Pred'] = int(result[0])
+    # # update the db
+    # user_input['Loan_Application_Pred'] = int(result[0])
 
 
-    #upload_firebase(db, collection_name, user_input)
-    #doc_ref.set(user_input)
+    # #upload_firebase(db, collection_name, user_input)
+    # #doc_ref.set(user_input)
     
-    print(user_input)
+    # print(user_input)
 
 
-    #st.dataframe(user_input_df)
-    prediction_convert = ":green[Approved]" if result[0] == 1 else ":red[Not Approved]"
-    st.write('')
-    st.write('')
+    # #st.dataframe(user_input_df)
+    # prediction_convert = ":green[Approved]" if result[0] == 1 else ":red[Not Approved]"
+    # st.write('')
+    # st.write('')
 
-    st.markdown(f"Loan Prediction: **{prediction_convert}**")
+    # st.markdown(f"Loan Prediction: **{prediction_convert}**")
     #st.write(result[0])
 
 

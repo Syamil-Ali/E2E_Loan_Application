@@ -36,7 +36,7 @@ def load_champion_model(client):
             deployment_model = mlflow.pyfunc.load_model(f"models:/{model_name}@champion")
             
     
-    return deployment_model
+    return deployment_model, {'Model Name': model_name, 'Version': version}
 
 
 
@@ -56,7 +56,7 @@ def load_latest_model(client, model_name, latest_model = True, version = 1):
     # load  model
     deployment_model = mlflow.pyfunc.load_model(f"models:/{model_name}/{model_version}")
 
-    return deployment_model, model_name, model_version
+    return deployment_model, {'Model Name': model_name, 'Version': model_version}
 
     # things needed: if need latest model, custom model, model name (if it is logistic regression, )
 
